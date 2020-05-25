@@ -37,8 +37,8 @@ passport.use('oidc', new OidcStrategy({
   authorizationURL: 'https://c1dev.vivvo.com/oauth/v2/authorize',
   tokenURL: 'https://c1dev.vivvo.com/oauth/v2/token',
   userInfoURL: 'https://c1dev.vivvo.com/oauth/v2/userinfo',
-  clientID: '41209adf-45e9-4d1b-8720-8c6a1e680ceb',
-  clientSecret: 'd18a3ba5-e7be-4da6-857d-333e5cf6e794',
+  clientID: '24e6fc3a-e419-4da0-a6f5-1e26e20dfe7e',
+  clientSecret: '5562c76a-3380-4524-ab10-2f53cce82c08',
   callbackURL: 'http://localhost:3000/authorization-code/callback',
   scope: 'openid profile email phone address'
 }, (issuer, sub, profile, accessToken, refreshToken, done) => {
